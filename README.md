@@ -1,4 +1,4 @@
-# 🗓️🤖 Daily Task Automator with OpenAI GPT-4o-mini
+# 🗓️🤖 Daily Task Automator
 
 This is a lightweight tool that reads a list of tasks from a `.txt` file, sends them to OpenAI's GPT-4o-mini model, and receives an analysis that includes:
 
