@@ -1,4 +1,4 @@
-# 🧠 Task Analyzer with OpenAI GPT-4o-mini
+# 🗓️🤖 Daily Task Automator with OpenAI GPT-4o-mini
 
 This is a lightweight tool that reads a list of tasks from a `.txt` file, sends them to OpenAI's GPT-4o-mini model, and receives an analysis that includes:
 
@@ -27,11 +27,13 @@ The generated response is printed to the console and saved to `tasks_response.tx
 3. **Receive analysis**  
    Example output:
    ```
-   - Task: Write report
+   - Task: Write a report
+     Draft: ...
      Complexity: Medium
      Time Estimate: 2 hours
 
    - Task: Clean dataset
+     Describe: ...
      Complexity: High
      Time Estimate: 3 hours
    ```
@@ -90,12 +92,6 @@ python main.py
 - [OpenAI GPT-4o-mini](https://platform.openai.com/)
 - Python 3.8+
 - `openai`, `dotenv` libraries
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
